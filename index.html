@@ -35,39 +35,36 @@
    <header>
     <!-- nav section -->
 
-    <section class="container mx-auto px-8 md:px-16 lg:px-24 py-6 my-10 h-25   bg-[#F85559] rounded-full ">
+    <section class="container mx-auto px-8 md:px-16 lg:px-24 py-6 my-10 h-25  bg-[#FFF] lg:bg-[#F85559] rounded-full ">
       <div class="navbar flex justify-between ">
-        <div class=" lg:flex hidden justify-center items-center  text-[#FFF] text-xl font-medium gap-7">
+        <div class=" lg:flex hidden justify-center items-center  text-[#FFF] text-xl  font-medium gap-7">
           <a class="">Home</a>
           <a class="">About Us</a>
           <a class="">Shop</a>
           <a class="">All Fruits</a>
         </div>
         <div class="flex-none">
-          <ul class=" px-1 items-center flex items-center gap-4">
-            <li><a><img src="images/logo.png" alt=""></a></li>
-            <li class="text-[#FFF] font-bold text-4xl"><a>Fruit Burst</a></li>
-           
+           <ul class=" px-1 items-center flex items-center gap-4">
+              <li><a><img src="images/logo.png" alt=""></a></li>
+               <li class="text-[#121212] lg:text-[#FFF] font-bold lg:text-4xl text-2xl"><a>Fruit Burst</a></li>
             </ul>
         </div>
-              <div class="md:max-w-lg md:h-14 lg:flex hidden">
-                <form action="" class=" bg-[#FFF] py-4 px-7 flex items-center rounded-full w-80">
+            <div class="md:max-w-lg md:h-14 lg:flex hidden">
+             <form action="" class=" bg-[#FFF] py-4 px-7 flex items-center rounded-full   w-80">
                 <input class="text-xl font-normal text-[ #12121266]" type="text" placeholder="search here" name="">
                 <button type="submit"> <img src="./images/search.png" alt=""></button>
             </form>
             </div>
-          
-              <details class="dis lg:hidden">
-              <summary class="">
-                 <img src="./images/Frame.svg" alt="">
-                </summary>
-                <ul class="p-2 ">
-                  <li><a>Link 1</a></li>
-                  <li><a>Link 2</a></li>
-                  <li><a>Link 1</a></li>
-                  <li><a>Link 2</a></li>
-                </ul>
-              </details>
+            <div class="dropdown dropdown-bottom dropdown-end lg:hidden">
+              <label tabindex="0" class="btn m-1"><img src="./images/bar.svg" alt=""></label>
+              <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+              </ul>
+            </div>
+             
             </li>
           </ul>
         </div>
@@ -79,7 +76,7 @@
       <div id="slide1" class="carousel-item relative w-full">
         <img src="./images/banner1.png" class="w-full" />
         <div class="absolute text-[#FFF] text-center mx-1 mt-2 md:ml-36 md:mt-6 lg:mx-40 lg:mt-10 ">
-          <h1 class=" text-xl  lg:text-6xl font-medium lg:font-extrabold text-center">Exotic tastes at your<br> doorstep</h1>
+          <h1 class=" text-xl md:text-4xl  lg:text-6xl font-medium md:font-bold lg:font-extrabold text-center">Exotic tastes at your<br> doorstep</h1>
           <p class="font-light text-xl md:font-normal lg:font-bold lg:text-xl text-center mt-2 mb-1 lg:mt-6 lg:mb-5">We supply highly quality organic products</p>
           <button class="w-24 h-8 md:mt-2 lg:w-32 lg:h-12 bg-[#F85559] rounded-lg border-none text-[#FFF] ">Shop Now</button>
         </div>
@@ -91,7 +88,7 @@
       <div id="slide2" class="carousel-item relative w-full">
         <img src="./images/banner2.png" class="w-full" />
         <div class="absolute text-[#FFF] text-center mx-1 mt-2 md:ml-36 md:mt-6 lg:mx-40 lg:mt-10 ">
-          <h1 class=" text-xl  lg:text-6xl font-medium lg:font-extrabold text-center">Exotic tastes at your<br> doorstep</h1>
+          <h1 class=" text-xl md:text-4xl  lg:text-6xl font-medium md:font-bold lg:font-extrabold text-center">Exotic tastes at your<br> doorstep</h1>
           <p class="font-light text-xl md:font-normal lg:font-bold lg:text-xl text-center mt-2 mb-1 lg:mt-6 lg:mb-5">We supply highly quality organic products</p>
           <button class="w-24 h-8 md:mt-2 lg:w-32 lg:h-12 bg-[#F85559] rounded-lg border-none text-[#FFF] ">Shop Now</button>
         </div>
@@ -103,7 +100,7 @@
       <div id="slide3" class="carousel-item relative w-full">
         <img src="./images/banner3.png" class="w-full" />
         <div class="absolute text-[#FFF] text-center mx-1 mt-2 md:ml-36 md:mt-6 lg:mx-40 lg:mt-10 ">
-          <h1 class=" text-xl  lg:text-6xl font-medium lg:font-extrabold text-center">Exotic tastes at your<br> doorstep</h1>
+          <h1 class=" text-xl md:text-4xl  lg:text-6xl font-medium md:font-bold lg:font-extrabold text-center">Exotic tastes at your<br> doorstep</h1>
           <p class="font-light text-xl md:font-normal lg:font-bold lg:text-xl text-center mt-2 mb-1 lg:mt-6 lg:mb-5">We supply highly quality organic products</p>
           <button class="w-24 h-8 md:mt-2 lg:w-32 lg:h-12 bg-[#F85559] rounded-lg border-none text-[#FFF] ">Shop Now</button>
         </div>
@@ -115,7 +112,7 @@
       <div id="slide4" class="carousel-item relative w-full">
         <img src="./images/banner4.png" class="w-full" />
         <div class="absolute text-[#FFF] text-center mx-1 mt-2 md:ml-36 md:mt-6 lg:mx-40 lg:mt-10 ">
-          <h1 class=" text-xl  lg:text-6xl font-medium lg:font-extrabold text-center">Exotic tastes at your<br> doorstep</h1>
+          <h1 class=" text-xl md:text-4xl  lg:text-6xl font-medium md:font-bold lg:font-extrabold text-center">Exotic tastes at your<br> doorstep</h1>
           <p class="font-light text-xl md:font-normal lg:font-bold lg:text-xl text-center mt-2 mb-1 lg:mt-6 lg:mb-5">We supply highly quality organic products</p>
           <button class="w-24 h-8 md:mt-2 lg:w-32 lg:h-12 bg-[#F85559] rounded-lg border-none text-[#FFF] ">Shop Now</button>
         </div>
@@ -403,7 +400,7 @@
 
 
     <!--team section -->
-    <section class="container mx-auto px-8 md:px-16 lg:px-24 py-6 my-10">
+    <section class="container mx-auto px-8 md:px-16 lg:px-24 py-6 my-20">
       <div class="hero min-h-screen" style="background-image: url(./images/team.png);">
         <div class="hero-overlay bg-opacity-70 "></div>
         <div class="hero-content text-center text-neutral-content pt-20 ">
